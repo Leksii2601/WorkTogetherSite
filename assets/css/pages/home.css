@@ -1,0 +1,220 @@
+body{
+  font-family: 'Inter';
+}
+.carousel{
+  height: 630px;
+}
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel-caption{
+  position: absolute;
+  --translateX: 20%;
+  --translateY: -150%;
+  transform: translate(var(--translateX), var(--translateY));
+   z-index: 100;
+   backdrop-filter: blur(15px);
+   background: rgba(255, 255, 255, 0.425);
+   width: 800px;
+}
+.carousel-caption::after {
+  content: "";
+  display: block;
+  width: 100px; /* Довжина рисочки */
+  height: 3px; /* Товщина рисочки */
+  background-color: #68afe2; /* Колір рисочки */
+  margin: 5px auto 0; /* Відступ від тексту */
+  border-radius: 2px; /* Закруглені краї */
+}
+.carousel-caption h1{
+  width: 800px;
+}
+.moreAboutUs{
+  height: 100%;
+}
+.photoandcontent{
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+.photo img{
+  height: 600px;
+  width: 100%;
+}
+.content{
+  display: flex;
+  padding-left: 50px;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+.textunderheading{
+  padding: 10px 0 10px 0;
+}
+.content .support{
+  display: flex;
+  width: 200px;
+}
+.benefit-section{
+  display:flex;
+  margin:50px 0 50px 0;
+  height: 300px;
+}
+.benefit-section .row{
+  display: flex;
+  text-align: center;
+}
+.row h1{
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.number{
+  color: #68afe2;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.text h4{
+  font-size: 20px;
+}
+.project-heading{
+  text-align: center;
+}
+.project-heading h1{
+  font-weight: 700;
+}
+.project-section .support{
+  display: flex;
+  width: 200px;
+  margin-bottom: 50px;
+}
+.col-lg-12{
+  display: flex;
+  justify-content: center;
+}
+.col-lg-12 .support{
+  width: 200px;
+}
+.news-section .shadow-sm {
+  box-shadow:none !important;
+}
+.news-section .card{
+  border-color: white !important;
+}
+.news-section .card-text{
+  margin:0;
+}
+.news-section .card-body{
+  padding-right:0;
+  padding-left: 0;
+}
+.news-section .bg-body-tertiary{
+  padding-bottom: 0 !important;
+}
+.news-section .support{
+  display: flex !important;
+}
+.bg-body-tertiary{
+  background-color: white !important;
+}
+.partners-section{
+  margin:50px 0 50px 0;
+}
+.photos{
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.photos img{
+  height: 100px;
+  padding-right: 10px;
+  transition: 0.3s ease;
+}
+.photos img:hover{
+  transform: scale(1.1);
+}
+.logo-algorytm img{
+  height: 60px;
+}
+.logo-lntu img{
+  height: 60px;
+}
+.logo-monastur img{
+  height: 110px;
+}
+.partners-section .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photos img{
+  object-fit: cover;
+}
+.logo-miskarada img{
+  height: 70px;
+}
+.logo-osvita img{
+  height: 50px;
+}
+.logo-iocc img{
+  height: 50px;
+}
+
+
+
+
+
+
+@media (max-width:770px) {
+  .photoandcontent{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content{
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .photo img{
+    object-fit:cover;
+    
+  }
+  .content{
+    width: 100%;
+  }
+  .benefit-section{
+    height: 500px;
+  }
+  .news-section .support{
+    display: flex !important;
+  }
+}
+@media (max-width: 576px){
+  .carousel-indicators{
+    display: none;
+  }
+  .photo img{
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+  }
+  .col-6{
+    padding-top: 20px;
+  }
+}

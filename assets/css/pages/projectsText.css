@@ -1,0 +1,117 @@
+
+.image-bg img{
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .headingforpost{
+    position: relative;
+    top:-160px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  h1{
+    text-align: center;
+  }
+  .Layout{
+    padding: 0 150px 50px 150px;
+    font-family: 'Inter';
+  }
+  strong{
+    font-size: 23px;;
+  }
+  .Layout li{
+    font-size:18px;
+  }
+  .Layout li::first-letter{
+    text-transform:uppercase;
+  }
+  .Layout p{
+    font-size:18px;
+  }
+  .Layout span{
+    margin-left:14.6%;
+  }
+    .Layout a{
+    font-size:20px;
+    color:#68afe2;
+    transition: 0.3s ease;
+  }
+  a:hover{
+    color:black;
+  }
+  .underheading{
+    width: 80%;
+    font-size: 18px;
+  }
+  .whole{
+    display: flex;
+    flex-wrap:wrap;
+  }
+
+
+
+.photo-gallery{
+  height: 700px;
+  padding: 0 10px 10px 10px;
+  margin:0 5px 10px 5px;
+  width: auto;
+}
+  
+
+.swiper {
+  width: 80%;
+  height: 95%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+  
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.swiper-container-wrapper {
+  display: flex;
+  justify-content: center;  /* по горизонталі */
+  align-items: center;      /* по вертикалі */         /* задає висоту для вертикального центрування */
+}
+.whole-2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.underheading-initiative{
+  display: flex;
+  width: 80%;
+  text-align:start;
+}
+
+
+  @media screen and (max-width: 1285px){
+    .Layout{
+        padding: 0 20px 50px 20px;
+    }
+    
+    
+  }
+  @media screen and (max-width: 576px){
+  
+  }

@@ -1,0 +1,51 @@
+
+.image-bg img{
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+  }
+  .headingforpost{
+    position: relative;
+    top:-160px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .heading-section{
+    margin-bottom: 20px;
+  }
+.bg-body-tertiary{
+    display: flex;
+    justify-content: center;
+    background: white !important;
+  }
+  .reports-section{
+    height: 400px;
+  }
+ .report-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ }
+  .report-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4288ba;
+    color:white;
+    height: 50px;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 70%;
+    font-weight: bold;
+  }
+  .report-item svg{
+    transform: scale(1.5);
+    transition:0.3s ease;
+  }
+  .report-item svg:hover{
+    transform: scale(1.7);
+  }

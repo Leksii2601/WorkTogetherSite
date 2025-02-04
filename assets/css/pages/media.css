@@ -1,0 +1,24 @@
+body{
+  font-family: 'Inter';
+}
+.image-bg img{
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+.headingforpost{
+  position: relative;
+  top:-160px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.bg-body-tertiary{
+  display: flex;
+  justify-content: center;
+  background: white !important;
+}
+.bg-body-tertiary .col{
+  font-weight: bold;
+}
