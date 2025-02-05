@@ -32,6 +32,7 @@
   .photo img{
     height: 500px;
     width: 100%;
+    object-fit: contain !important;
   }
   .content{
     display: flex;
@@ -127,11 +128,12 @@
     .photo img{
       object-fit:cover;
     }
+    
     .content{
       width: 100%;
     }
     .visions-section{
-      margin-top: 400px;
+      margin-top: 500px;
     }
     .col-md-12 .text-one{
       flex-direction: column;
@@ -139,9 +141,25 @@
   }
   @media (max-width: 576px){
     .photo img{
-      border-radius: 50px;
+      height: 50%;
     }
     .col-6{
       padding-top: 20px;
+    }
+    .directions-section .container{
+      margin-bottom: 500px;
+    }
+    .report-item{
+      height: 100%;
+      width: 100%;
+    }
+    .documents-section{
+      height: 100%;
+    }
+    .report-list{
+      height: 100%;
+    }
+    .heading-section h2{
+      font-size: calc(1.325rem + .9vw) !important;
     }
   }
