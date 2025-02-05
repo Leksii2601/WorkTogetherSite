@@ -180,8 +180,8 @@ swiper-slide img {
 .logo-iocc img{
   height: 50px;
 }
-.logo-eu{
-  height: 40px;
+.logo-eu img{
+  height: 80px;
 }
 @media (max-width: 768px) {
   swiper-container::part(button-prev),
