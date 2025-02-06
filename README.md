@@ -1,2 +1,2 @@
 Сайт ГО Спільна справа+
-https://tourmaline-macaron-1bf907.netlify.app/
+https://www.work-together.com.ua
